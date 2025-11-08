@@ -1,0 +1,9 @@
+numpy
+pandas
+scikit-learn
+scipy
+joblib
+xgboost
+plotly
+kaleido
+
