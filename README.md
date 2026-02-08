@@ -119,4 +119,4 @@ pio.renderers.default = "notebook_connected"  # auto PNG fallback (kaleido)
 ---
 
 ## 🧾 Case Study
-See **CASE_STUDY.md** for the project story, decisions, and takeaways (without repeated run steps).
+See **CASE_STUDY.md** for the project story, decisions, and takeaways.
