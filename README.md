@@ -84,5 +84,39 @@ pio.renderers.default = "notebook_connected"  # auto PNG fallback (kaleido)
 ## 🗂️ Dataset
 - **Target:** `high_risk_flag` (0/1)  
   If categorical → `TARGET_MAP = {"Low":0, "High":1}`  
-- **Default path:** `/kaggle/input/digital-health-and-mental-wellness/Data.csv`  
+- **Default path:** `/kaggle/input/digital-health-and-mental-wellness/Data.csv`
 
+---
+
+## 📁 Repo layout
+
+```text
+.
+├── predicting-wellbeing-risk.ipynb
+├── data/
+│   └── raw/               # put Data.csv here for local runs
+├── artifacts/             # exported tables / metrics / model files
+├── repo_utils/
+│   └── pathing.py         # local + Kaggle path helpers
+├── CASE_STUDY.md
+├── requirements.txt
+└── .gitignore
+```
+
+---
+
+## 🧭 Data loading (local + Kaggle)
+
+**Local (recommended):**
+- Put `Data.csv` under `data/raw/`
+
+**Kaggle:**
+- Falls back to `/kaggle/input/digital-health-and-mental-wellness/Data.csv`
+
+**Optional override:**
+- Set `DATA_PATH` to a full file path (local runs).
+
+---
+
+## 🧾 Case Study
+See **CASE_STUDY.md** for the project story, decisions, and takeaways (without repeated run steps).

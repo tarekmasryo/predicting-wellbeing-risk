@@ -1,9 +1,30 @@
+# Python
 __pycache__/
-.ipynb_checkpoints/
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
+*.py[cod]
+*.so
+
+# Virtual env
+.venv/
 venv/
 ENV/
+env/
+.python-version
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Data & artifacts (keep folders via .gitkeep)
+data/raw/*
+!data/raw/.gitkeep
+
+artifacts/*
+!artifacts/.gitkeep

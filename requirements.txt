@@ -6,4 +6,4 @@ joblib
 xgboost
 plotly
 kaleido
-
+ipython
