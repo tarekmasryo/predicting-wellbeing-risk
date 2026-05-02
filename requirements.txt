@@ -1,9 +1,7 @@
-numpy
-pandas
-scikit-learn
-scipy
-joblib
-xgboost
-plotly
-kaleido
-ipython
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.3
+joblib>=1.3
+xgboost>=2.0
+plotly>=5.18
+ipython>=8.0

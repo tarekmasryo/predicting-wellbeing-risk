@@ -3,7 +3,7 @@ __pycache__/
 *.py[cod]
 *.so
 
-# Virtual env
+# Virtual environments
 .venv/
 venv/
 ENV/
@@ -22,7 +22,8 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Data & artifacts (keep folders via .gitkeep)
+# Local data and generated artifacts
+# Keep folders via .gitkeep, but do not commit private/raw data or model outputs.
 data/raw/*
 !data/raw/.gitkeep
 
